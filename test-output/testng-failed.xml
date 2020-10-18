@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="methods">
+  <test name="Automation_Scenario">
+    <classes>
+      <class name="com.automation.apttus.Assginment.CodingTest">
+        <methods>
+          <include name="Web_Requirement1"/>
+          <include name="API_Requirement3"/>
+        </methods>
+      </class> <!-- com.automation.apttus.Assginment.CodingTest -->
+    </classes>
+  </test> <!-- Automation_Scenario -->
+</suite> <!-- Failed suite [Suite] -->

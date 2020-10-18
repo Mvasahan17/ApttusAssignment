@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="Suite" parallel="methods">
+	<test name="Automation_Scenario">
+		<classes>
+			<class name="com.automation.apttus.Assginment.CodingTest">
+			<methods>
+				<include name="Web_Requirement1"></include>
+			    <include name="API_Requirement3"></include>
+			</methods>
+			</class>
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
